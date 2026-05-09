@@ -39,12 +39,13 @@ This app helps fans:
 
 ## Screenshots
 
-Add screenshots here after deployment:
+### Group Stage Picker
 
-```md
-![World Cup bracket helper screenshot](public/preview.png)
-```
+![Group stage picker](image_1.png)
 
+### Knockout Bracket
+
+![Knockout bracket with ticket links](image_2.png)
 ## Tech Stack
 
 - React

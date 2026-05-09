@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply min-h-screen;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-gray-950 text-white min-h-screen;
+    font-family: system-ui, 'Segoe UI', sans-serif;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+@layer components {
+  .bracket-stage {
+    --card-w: clamp(5.5rem, 9vw, 9.5rem);
+    --connector-w: clamp(0.5rem, 1.6vw, 1.75rem);
+    --bracket-h: clamp(46rem, calc(100vh - 10rem), 52.5rem);
+    scrollbar-gutter: stable;
+  }
+}
